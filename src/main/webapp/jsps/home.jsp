@@ -5,18 +5,19 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Mylandmark.Tech- Home Page</title>
-<link href="images/LT.PNG" rel="icon">
+<link href="images/LT.JPG" rel="icon">
 </head>
 </head>
 <body>
 <h1 align="center">Landmark Technology  --> Human Development Center</h1>
 <h1 align="center"> Welcome to Landmark Technology.......We have a demo on DevOps E Degree with Linux and AWS  on Saturday Sept 5, 2020 at 4pm EST for our new batch. 
-	Landmark Technology is a an ideal online training  platform for DevOps and Cloud Infrastructures. JESUS IS LORD.
+	Landmark Technology is a an ideal online training  platform for DevOps and Cloud Infrastructures. 
 	</h1>
+	<h1>JESUS IS LORD</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/LT.PNG" alt="" width="300">
+		<img src="images/LT.JGP" alt="" width="300">
 	</span>
 	<span style="font-weight: bold;">
 		Landmark Technology, 
