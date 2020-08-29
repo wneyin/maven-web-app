@@ -22,7 +22,6 @@
 	<span style="font-weight: bold;">
 		Landmark Technology, 
 		Toronto, Ontario, Canada
-		Dallas, TX USA, 
 		+1 437 215 2483,
 		mylandmarktech@gmail.com
 		<br>
