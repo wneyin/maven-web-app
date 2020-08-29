@@ -10,14 +10,14 @@
 </head>
 <body>
 <h1 align="center">Landmark Technology  --> Human Development Center</h1>
-<h1 align="center"> Welcome to Landmark Technology.......We have a demo on DevOps E Degree with Linux and AWS  on Saturday Sept 5, 2020 at 9pm EST for our new batch. 
+<h1 align="center"> Welcome to Landmark Technology.......We have a demo on DevOps E Degree with Linux and AWS  on Saturday Sept 5, 2020 at 6pm EST for our new batch. 
 	Landmark Technology is a an ideal online training  platform for DevOps and Cloud Infrastructures. 
 	</h1>
 	<h1 align="center" >JESUS IS LORD</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/landmarklogo.jpg" alt="" width="200">
+		<img src="images/logo.png" alt="" width="200">
 	</span>
 	<span style="font-weight: bold;">
 		Landmark Technology, 
