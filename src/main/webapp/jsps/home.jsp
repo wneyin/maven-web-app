@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Landmark Technology DevOps E. Degree</h1>
+<h1 align="center">Landmark Technology - Leaders in Software Delivery</h1>
 <h1 align="center"> Welcome to Landmark Technology.......We have a demo on DevOps E Degree with Linux and AWS  on Saturday Sept 5, 2020 at 6pm EST for our new batch. 
 	Landmark Technology is a an ideal online training  platform for DevOps and Cloud Infrastructures. 
 	</h1>
