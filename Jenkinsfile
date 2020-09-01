@@ -4,7 +4,7 @@ def mavenHome = tool name: "maven3.6.3"
     
     stage("1. git clone")
     {
-       git credentialsId: 'gitCredentials', url: 'https://github.com/LandmakTechnology/maven-web-app.git'
+       git url: 'https://github.com/LandmakTechnology/maven-web-app.git'
     }
     
     stage("2. Build")
