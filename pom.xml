@@ -95,17 +95,18 @@
 	</dependencies>
 	
 	<distributionManagement>
-	
+
+		
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.236.97.174:8081/repository/aws-ec-releases/</url>
+	      <url>http://35.175.103.81:8081/repository/awsec-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.236.97.174:8081/repository/aws-ec-snapshot/</url>
+	      <url>http://35.175.103.81:8081/repository/awsec-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
