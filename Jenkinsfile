@@ -24,7 +24,7 @@ def mavenHome = tool name: "maven3.6.3"
     stage('5. Deploy')
     {
        deploy adapters: [tomcat9(credentialsId: 'TomcatCredentials', path: '', url: 'http://34.239.176.96:8080/')], contextPath: null, war: '**/maven-web-app.war'
-       //sh "scp -o StrictHostKeyChecking=no target/maven-web-app ec2-user@34.204.166.28:/opt/apache-tomcat-9.0.37/webapps/"
+       sh "scp -o StrictHostKeyChecking=no target/maven-web-app ec2-user@34.204.166.28:/opt/apache-tomcat-9.0.37/webapps/"
         
     }
     stage('6. Email notification')
