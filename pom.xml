@@ -100,13 +100,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.235.227.213/repository/awsec-releases/</url>
+	      <url>http://18.204.2.182:8081/repository/awsec-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.235.227.213:8081/repository/awsec-snapshot/</url>
+	      <url>http://18.204.2.182:8081/repository/awsec-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
