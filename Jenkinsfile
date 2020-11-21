@@ -2,6 +2,7 @@ node
 {
 def mavenHome = tool name: "maven3.6.3"
     def mavenHome = tool name: "maven3.6.3"
+    # new feature
     
     stage("1. git clone")
     {
