@@ -21,7 +21,8 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 
-		<sonar.host.url>http://3.235.148.100:9000/</sonar.host.url>
+	
+		<sonar.host.url>http://3.235.23.147:9000/</sonar.host.url>
 
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
@@ -100,18 +101,18 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.235.227.213/repository/awsec-releases/</url>
+	      <url>http://3.237.48.60:8888/landmarktech/repository/ebay-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.235.227.213:8081/repository/awsec-snapshot/</url>
+	      <url>http://3.237.48.60:8888/landmarktech/repository/ebay-snapshots/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app</finalName>
+		<finalName>myapps</finalName>
 		
 		<plugins>
 			<plugin>
