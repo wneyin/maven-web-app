@@ -1,6 +1,7 @@
 # Ansible Installation
 
-Ansible is an open-source automation platform. It is very, very simple to set up and yet powerful. Ansible can help you with configuration management, application deployment, task automation.
+Ansible is an open-source automation platform. It is very, very simple to set up and yet powerful. 
+Ansible can help you with configuration management, application deployment, task automation.
 
 ### Pre-requisites
 
@@ -25,7 +26,8 @@ Ansible is an open-source automation platform. It is very, very simple to set up
    useradd ansible
    passwd ansible
    ```
-1. Below command grant sudo access to ansadmin user. But we strongly recommended using "visudo" command if you are aware vi or nano editor.  (on Control node and Managed host)
+1. Below command grant sudo access to ansadmin user. But we strongly recommended using "visudo" command 
+    if you are aware vi or nano editor.  (on Control node and Managed host)
    ```sh
    #echo "ansible ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
    echo "ansible  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/ansible
@@ -41,7 +43,8 @@ Ansible is an open-source automation platform. It is very, very simple to set up
    ssh-copy-id ansadmin@<target-server>
    ```
 
-1. Ansible server used to create images and store on docker registry. Hence install docker, start docker services and add ansadmin to the docker group. 
+1. Ansible server used to create images and store on docker registry. 
+   Hence install docker, start docker services and add ansadmin to the docker group. 
    ```sh
    yum install docker
    
@@ -56,7 +59,12 @@ Ansible is an open-source automation platform. It is very, very simple to set up
 1. Create a directory /etc/ansible and create an inventory file called "hosts" add control node and managed hosts IP addresses to it. 
  
 ### Validation test
-
+      ```sh 
+    sudo mkdir /etc/ansible
+    sudo chown -R ansible:ansible /etc/ansible
+    vi /etc/ansible/hosts            # default hosts file
+    vi /etc/ansible/ansible.cfg   # default ansible_config file
+   ```
    
 1. Run ansible command as ansadmin user it should be successful (Master)
    ```sh 
