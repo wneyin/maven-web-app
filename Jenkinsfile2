@@ -23,13 +23,7 @@ def mavenHome = tool name: "maven3.6.3"
     }
     stage('5. Deploy')
     {
-    sshagent(['TomcatServer4']) {
-
-}
-      //  echo "Can I deploy to production" 
-        deploy adapters: [tomcat9(credentialsId: 'tomcatCredentials', path: '', url: 'http://34.204.166.28:8080/')], contextPath: null, war: '**/maven-web-app.war'
-    //sh "sudo scp -o StrictHostKeyChecking=no target/maven-web-app.war ec2-user@34.204.166.28:/opt/apache-tomcat-9.0.37/webapps/"
-        
+     deploy adapters: [tomcat9(credentialsId: 'Tomcat-Credentials', path: '', url: 'http://54.163.156.108:8888/')], contextPath: null, war: 'target/*war'
     }
 
     stage('6. Email Notification')
