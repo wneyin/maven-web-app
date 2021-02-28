@@ -9,7 +9,7 @@ git credentialsId: 'Github_credentials', url: 'https://github.com/myLandmakTechn
 }
 stage('2. Build')
 {
-sh "${mavenHome}/bin/mvn package -f boa.xml"
+sh "${mavenHome}/bin/mvn package"
 }
 
 stage('3. CodeQuality') 
